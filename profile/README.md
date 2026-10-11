@@ -8,71 +8,79 @@
 </p>
 
 <p align="center">
-  <a href="https://authfi.io"><img alt="Website" src="https://img.shields.io/badge/Website-authfi.io-ffc428?style=for-the-badge&labelColor=0b0e14"></a>
-  <a href="https://authfi.io/docs/"><img alt="Documentation" src="https://img.shields.io/badge/Docs-Read-ffc428?style=for-the-badge&labelColor=0b0e14"></a>
-  <a href="https://authfi.io/pricing"><img alt="Pricing" src="https://img.shields.io/badge/Pricing-From_%24999-ffc428?style=for-the-badge&labelColor=0b0e14"></a>
-  <a href="https://github.com/orgs/authfi/discussions"><img alt="Discussions" src="https://img.shields.io/badge/Community-Discussions-ffc428?style=for-the-badge&labelColor=0b0e14"></a>
-  <a href="https://status.authfi.io"><img alt="Status" src="https://img.shields.io/badge/Status-Live-2ea043?style=for-the-badge&labelColor=0b0e14"></a>
+  <a href="https://authfi.io"><b>Website</b></a> &nbsp;·&nbsp;
+  <a href="https://authfi.io/docs/"><b>Documentation</b></a> &nbsp;·&nbsp;
+  <a href="https://authfi.io/pricing"><b>Pricing</b></a> &nbsp;·&nbsp;
+  <a href="https://authfi.io/compare"><b>Compare</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/orgs/authfi/discussions"><b>Discussions</b></a>
 </p>
 
 <h3 align="center">Sign in your people. Give every AI agent an identity, limits and an off switch.<br>Enforce it where the work runs.</h3>
 
 <br>
 
-## What AuthFI does
+<p align="center">
+  <a href="https://authfi.io/ai-auth">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/ai-auth-dark.png">
+      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/ai-auth-light.png" alt="AI Auth: every AI agent gets an identity, limits and an off switch. The agent holds its own key, permissions carry limits, and a sensitive action waits for a named person to approve it." width="100%">
+    </picture>
+  </a>
+</p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>AI Auth</h3>
-      <p>Authentication and authorization for AI agents, built on OAuth. Each agent holds its own key, has permissions with limits, and waits for a person when your rules say so.</p>
-      <a href="https://authfi.io/ai-auth">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/agents-dark.webp">
-          <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/agents.webp" alt="The AI agents screen in the AuthFI console" width="100%">
-        </picture>
-      </a>
-      <p><a href="https://authfi.io/ai-auth"><b>AI Auth →</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>MCP gateway</h3>
-      <p>One endpoint for every tool your agents call. A grant per tool, arguments checked on each call, and the tool's own credential never reaches the agent.</p>
-      <a href="https://authfi.io/solutions/tool-gateway">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/mcp-tools-dark.webp">
-          <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/mcp-tools.webp" alt="The MCP gateway's tools screen in the AuthFI console" width="100%">
-        </picture>
-      </a>
-      <p><a href="https://authfi.io/solutions/tool-gateway"><b>MCP gateway →</b></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Zero-Code</h3>
-      <p>Sign-in and access rules in front of services on Kubernetes, enforced with eBPF in the Linux kernel. Nothing is added to your services.</p>
-      <a href="https://authfi.io/zero-code">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/cluster-dark.webp">
-          <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/cluster.webp" alt="A Kubernetes cluster in the AuthFI console" width="100%">
-        </picture>
-      </a>
-      <p><a href="https://authfi.io/zero-code"><b>Zero-Code →</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Security</h3>
-      <p>See what was denied and where, which rules are in force, how a cluster stands against a framework, who is signed in, and one record of it all.</p>
-      <a href="https://authfi.io/security">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/signals-dark.webp">
-          <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/signals.webp" alt="The Signals screen in the AuthFI console" width="100%">
-        </picture>
-      </a>
-      <p><a href="https://authfi.io/security"><b>Security →</b></a></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://authfi.io/solutions/tool-gateway">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/mcp-gateway-dark.png">
+      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/mcp-gateway-light.png" alt="MCP gateway: one endpoint for every tool your agents call. A grant per tool, arguments checked on every call, and the tool's own credential stays in the gateway." width="100%">
+    </picture>
+  </a>
+</p>
 
-And the identity provider underneath it all: **single sign-on** over OpenID Connect and SAML 2.0, **SCIM** provisioning, **passkeys** and multi-factor authentication, customer identity under your own brand and domain, and sign-in to Windows, macOS and Linux devices.
+<p align="center">
+  <a href="https://authfi.io/zero-code">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/zero-code-dark.png">
+      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/zero-code-light.png" alt="Zero-Code: sign-in and enforcement with no change to your code. One install on a cluster, enforced with eBPF in the Linux kernel." width="100%">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://authfi.io/platform">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/identity-dark.png">
+      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/identity-light.png" alt="Identity provider: one identity provider for staff, customers and devices. Single sign-on over OpenID Connect and SAML 2.0 with SCIM, passkeys and multi-factor authentication on every plan, hosted sign-in under your brand." width="100%">
+    </picture>
+  </a>
+</p>
+
+## Build with AuthFI
+
+<p align="center">
+  <a href="https://authfi.io/docs/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/developers-dark.png">
+      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/developers-light.png" alt="SDKs in seven languages, a Terraform provider and skills for coding agents." width="100%">
+    </picture>
+  </a>
+</p>
+
+**SDKs.** Each one signs people in, verifies tokens and calls the AuthFI APIs, in the idiom of its language.
+
+| Language | Repository |
+| --- | --- |
+| Node.js | [authfi/authfi-nodejs-sdk](https://github.com/authfi/authfi-nodejs-sdk) |
+| Python | [authfi/authfi-python-sdk](https://github.com/authfi/authfi-python-sdk) |
+| Go | [authfi/authfi-go-sdk](https://github.com/authfi/authfi-go-sdk) |
+| Java | [authfi/authfi-java-sdk](https://github.com/authfi/authfi-java-sdk) |
+| .NET | [authfi/authfi-dotnet-sdk](https://github.com/authfi/authfi-dotnet-sdk) |
+| PHP | [authfi/authfi-php-sdk](https://github.com/authfi/authfi-php-sdk) |
+| Ruby | [authfi/authfi-ruby-sdk](https://github.com/authfi/authfi-ruby-sdk) |
+
+**Infrastructure as code.** [terraform-provider-authfi](https://github.com/authfi/terraform-provider-authfi) manages applications, connections, roles and policies from Terraform.
+
+**Skills for coding agents.** [authfi-skills](https://github.com/authfi/authfi-skills) teaches an AI coding agent how to integrate AuthFI: written in the Open Knowledge Format, so any agent that reads Markdown can use them.
 
 ## Start in ten minutes
 
