@@ -60,8 +60,8 @@
 <p align="center">
   <a href="https://authfi.io/docs/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/developers-dark.png">
-      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/developers-light.png" alt="SDKs in seven languages, a Terraform provider and skills for coding agents." width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/sdks-dark.png">
+      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/sdks-light.png" alt="SDKs in seven languages, a signed Helm chart, a Terraform provider and skills for coding agents." width="100%">
     </picture>
   </a>
 </p>
@@ -70,15 +70,25 @@
 
 | Language | Repository |
 | --- | --- |
-| Node.js | [authfi/authfi-nodejs-sdk](https://github.com/authfi/authfi-nodejs-sdk) |
-| Python | [authfi/authfi-python-sdk](https://github.com/authfi/authfi-python-sdk) |
-| Go | [authfi/authfi-go-sdk](https://github.com/authfi/authfi-go-sdk) |
-| Java | [authfi/authfi-java-sdk](https://github.com/authfi/authfi-java-sdk) |
-| .NET | [authfi/authfi-dotnet-sdk](https://github.com/authfi/authfi-dotnet-sdk) |
-| PHP | [authfi/authfi-php-sdk](https://github.com/authfi/authfi-php-sdk) |
-| Ruby | [authfi/authfi-ruby-sdk](https://github.com/authfi/authfi-ruby-sdk) |
+| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/nodejs.svg" alt="" height="20" align="top"> &nbsp;Node.js | [authfi/authfi-nodejs-sdk](https://github.com/authfi/authfi-nodejs-sdk) |
+| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/python.svg" alt="" height="20" align="top"> &nbsp;Python | [authfi/authfi-python-sdk](https://github.com/authfi/authfi-python-sdk) |
+| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/go.svg" alt="" height="20" align="top"> &nbsp;Go | [authfi/authfi-go-sdk](https://github.com/authfi/authfi-go-sdk) |
+| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/java.svg" alt="" height="20" align="top"> &nbsp;Java | [authfi/authfi-java-sdk](https://github.com/authfi/authfi-java-sdk) |
+| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/csharp.svg" alt="" height="20" align="top"> &nbsp;.NET | [authfi/authfi-dotnet-sdk](https://github.com/authfi/authfi-dotnet-sdk) |
+| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/php.svg" alt="" height="20" align="top"> &nbsp;PHP | [authfi/authfi-php-sdk](https://github.com/authfi/authfi-php-sdk) |
+| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/ruby.svg" alt="" height="20" align="top"> &nbsp;Ruby | [authfi/authfi-ruby-sdk](https://github.com/authfi/authfi-ruby-sdk) |
 
-**Infrastructure as code.** [terraform-provider-authfi](https://github.com/authfi/terraform-provider-authfi) manages applications, connections, roles and policies from Terraform.
+**Kubernetes.** <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/helm.svg" alt="" height="18" align="top"> The [authfi-ebpf-agent Helm chart](https://artifacthub.io/packages/helm/authfi-ebpf-agent/authfi-ebpf-agent) installs Zero-Code on a cluster. It is published on Artifact Hub by a verified publisher and signed with cosign.
+
+In the console, open **Connect cluster**, copy the one-time token, then:
+
+```sh
+helm install authfi-ebpf-agent oci://ghcr.io/authfi/charts/authfi-ebpf-agent \
+  --set authfi.issuerUrl=https://<your-project>.authfi.io \
+  --set authfi.connectToken=<token from the console>
+```
+
+**Infrastructure as code.** <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/terraform.svg" alt="" height="18" align="top"> [terraform-provider-authfi](https://github.com/authfi/terraform-provider-authfi) manages applications, connections, roles and policies from Terraform.
 
 **Skills for coding agents.** [authfi-skills](https://github.com/authfi/authfi-skills) teaches an AI coding agent how to integrate AuthFI: written in the Open Knowledge Format, so any agent that reads Markdown can use them.
 
