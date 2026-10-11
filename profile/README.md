@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://authfi.io">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/banner-dark.png">
-      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/banner-light.png" alt="AuthFI: the identity provider for people and AI agents" width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/header-dark.png">
+      <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/header-light.png" alt="AuthFI: the identity provider for people and AI agents" width="100%">
     </picture>
   </a>
 </p>
