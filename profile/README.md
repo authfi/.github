@@ -55,8 +55,6 @@
   </a>
 </p>
 
-## Build with AuthFI
-
 <p align="center">
   <a href="https://authfi.io/docs/">
     <picture>
@@ -66,50 +64,9 @@
   </a>
 </p>
 
-**SDKs.** Each one signs people in, verifies tokens and calls the AuthFI APIs, in the idiom of its language.
-
-| Language | Repository |
-| --- | --- |
-| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/nodejs.svg" alt="" height="20" align="top"> &nbsp;Node.js | [authfi/authfi-nodejs-sdk](https://github.com/authfi/authfi-nodejs-sdk) |
-| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/python.svg" alt="" height="20" align="top"> &nbsp;Python | [authfi/authfi-python-sdk](https://github.com/authfi/authfi-python-sdk) |
-| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/go.svg" alt="" height="20" align="top"> &nbsp;Go | [authfi/authfi-go-sdk](https://github.com/authfi/authfi-go-sdk) |
-| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/java.svg" alt="" height="20" align="top"> &nbsp;Java | [authfi/authfi-java-sdk](https://github.com/authfi/authfi-java-sdk) |
-| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/csharp.svg" alt="" height="20" align="top"> &nbsp;.NET | [authfi/authfi-dotnet-sdk](https://github.com/authfi/authfi-dotnet-sdk) |
-| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/php.svg" alt="" height="20" align="top"> &nbsp;PHP | [authfi/authfi-php-sdk](https://github.com/authfi/authfi-php-sdk) |
-| <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/ruby.svg" alt="" height="20" align="top"> &nbsp;Ruby | [authfi/authfi-ruby-sdk](https://github.com/authfi/authfi-ruby-sdk) |
-
-**Kubernetes.** <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/helm.svg" alt="" height="18" align="top"> The [authfi-ebpf-agent Helm chart](https://artifacthub.io/packages/helm/authfi-ebpf-agent/authfi-ebpf-agent) installs Zero-Code on a cluster. It is published on Artifact Hub by a verified publisher and signed with cosign.
-
-In the console, open **Connect cluster**, copy the one-time token, then:
-
-```sh
-helm install authfi-ebpf-agent oci://ghcr.io/authfi/charts/authfi-ebpf-agent \
-  --set authfi.issuerUrl=https://<your-project>.authfi.io \
-  --set authfi.connectToken=<token from the console>
-```
-
-**Infrastructure as code.** <img src="https://raw.githubusercontent.com/authfi/.github/main/profile/assets/langs/terraform.svg" alt="" height="18" align="top"> [terraform-provider-authfi](https://github.com/authfi/terraform-provider-authfi) manages applications, connections, roles and policies from Terraform.
-
-**Skills for coding agents.** [authfi-skills](https://github.com/authfi/authfi-skills) teaches an AI coding agent how to integrate AuthFI: written in the Open Knowledge Format, so any agent that reads Markdown can use them.
-
-## Start in ten minutes
-
-| You want to | Start here |
-| --- | --- |
-| Sign people in to your application | [Add sign-in to an app](https://authfi.io/docs/quickstart/sign-in) |
-| Give an AI agent its own identity | [Give an AI agent an identity](https://authfi.io/docs/quickstart/agent) |
-| Control which tools an agent can call | [Connect an agent to tools](https://authfi.io/docs/quickstart/mcp) |
-| Protect a service without changing it | [How Zero-Code works](https://authfi.io/docs/zero-code/overview) |
-| Compare with Auth0, Okta and Microsoft Entra | [The comparison, with sources](https://authfi.io/compare) |
-
-## Built on open standards
-
-OAuth 2.0 · OpenID Connect · SAML 2.0 · SCIM 2.0 · WebAuthn · OpenID CIBA · Model Context Protocol · eBPF
-
-## Talk to us
-
-- **Questions, ideas and feedback:** join the [community discussions](https://github.com/orgs/authfi/discussions). The people who build AuthFI read every post.
-- **Early-stage company?** See the [startup program](https://authfi.io/startups).
-- **Found a security weakness?** Please do not post it publicly. Follow the [security policy](https://github.com/authfi/.github/blob/main/SECURITY.md).
+**SDKs:** [Node.js](https://github.com/authfi/authfi-nodejs-sdk) · [Python](https://github.com/authfi/authfi-python-sdk) · [Go](https://github.com/authfi/authfi-go-sdk) · [Java](https://github.com/authfi/authfi-java-sdk) · [.NET](https://github.com/authfi/authfi-dotnet-sdk) · [PHP](https://github.com/authfi/authfi-php-sdk) · [Ruby](https://github.com/authfi/authfi-ruby-sdk)<br>
+**Deploy:** [Helm chart](https://artifacthub.io/packages/helm/authfi-ebpf-agent/authfi-ebpf-agent) · [Terraform provider](https://github.com/authfi/terraform-provider-authfi) · [Skills for coding agents](https://github.com/authfi/authfi-skills)<br>
+**Start:** [Add sign-in to an app](https://authfi.io/docs/quickstart/sign-in) · [Give an AI agent an identity](https://authfi.io/docs/quickstart/agent) · [Connect an agent to tools](https://authfi.io/docs/quickstart/mcp)<br>
+**Talk to us:** [Discussions](https://github.com/orgs/authfi/discussions) · [Startup program](https://authfi.io/startups) · [Report a security weakness](https://github.com/authfi/.github/blob/main/SECURITY.md)
 
 <p align="center"><sub>AuthFI is <b>Auth</b>entication <b>F</b>rom <b>I</b>ndia · <a href="https://authfi.io/about">About the company</a></sub></p>
